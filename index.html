@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Test Checkout Page</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1>Checkout</h1>
+<br>
+<div>Shipping Address</div>
+<br>
+<div class="instruction">Please fill in all of the information below</div><br>
+<form id="shipping">
+<input type="textbox" placeholder="First Name" id="sfirst"/>
+<input type="textbox" placeholder="Last Name" id="slast"/>
+<br><br>
+<input type="textbox" placeholder="Street Address" id="saddress"/>
+ <br><br>
+<input type="textbox" placeholder="City" id="scity"/>
+ <input type="textbox" placeholder="ZIP/Postal Code" id="szip"/>
+<br><br>
+<input type="textbox" placeholder="Country" id="scountry"/>
+<select id="sprovince">
+  <option value="Quebec">Quebec</option>
+  <option value="Ontario">Ontario</option>
+  <option value="Nova Scotia">Nova Scotia</option>
+  <option value="New Brunswick">New Brunswick</option>
+  <option value="Manitoba">Manitoba</option>
+  <option value="British Columbia">British Columbia</option>
+  <option value="Prince Edward Island">Prince Edward Island</option>
+  <option value="Saskatchewan">Saskatchewan</option>
+  <option value="Alberta">Alberta</option>
+  <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+  </select>
+  
+  <br><br><br>
+  
+  <div>Billing Address</div>
+  <br>
+  <div class="extra"><input type="checkbox" id="same_add" onclick="copyadd()"> Same as shipping address</input></div>
+  <br>
+  <input type="textbox" placeholder="First Name" id="bfirst"/>
+<input type="textbox" placeholder="Last Name" id="blast"/>
+<br><br>
+<input type="textbox" placeholder="Street Address" id="baddress"/>
+ <br><br>
+<input type="textbox" placeholder="City" id="bcity"/>
+ <input type="textbox" placeholder="ZIP/Postal Code" id="bzip"/>
+<br><br>
+<input type="textbox" placeholder="Country" id="bcountry"/>
+<select id="bprovince">
+  <option value="Quebec">Quebec</option>
+  <option value="Ontario">Ontario</option>
+  <option value="Nova Scotia">Nova Scotia</option>
+  <option value="New Brunswick">New Brunswick</option>
+  <option value="Manitoba">Manitoba</option>
+  <option value="British Columbia">British Columbia</option>
+  <option value="Prince Edward Island">Prince Edward Island</option>
+  <option value="Saskatchewan">Saskatchewan</option>
+  <option value="Alberta">Alberta</option>
+  <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+  </select>
+<br>
+<div class="hidden" id="error2">Please fill in <strong>all</strong> of the information above</div>
+<br>
+<div class="hidden" id="error">Please check this box to continue</div>
+<div class="instruction"><input type="checkbox" id="terms"/> I confirm that the above information is correct and I have read the terms of service</div>
+<br>
+
+<br>
+<input type=button class="button" value="Submit address and continue to payment" onclick="submit_info()"</input>
+</form>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

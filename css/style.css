@@ -1,0 +1,82 @@
+body{
+  margin-top: 50px;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  
+}
+
+h1{
+  font-size:24px;
+}
+
+.instruction{
+  font-size: 13px;
+  color: #C23628;
+}
+
+input[type=textbox]{
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #7B7B7B;
+  
+  width: 250px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#saddress{
+  width: 530px;
+}
+
+#baddress{
+  width: 530px;
+}
+select{
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #7B7B7B;
+  
+  width: 275px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+input[type=checkbox]{
+  
+}
+
+.extra{
+   font-size: 13px;
+}
+
+.button{
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  
+  font-size: 16px;
+  width: 555px;
+  padding: 15px;
+  
+  border-radius: 8px;
+  background-color: #5c6ac4;
+  border-color: #5c6ac4;
+}
+
+.hidden{
+  font-size:16px;
+  color: #C23628;
+  
+  visibility: hidden;
+}
+
+.visible{
+  font-size:16px;
+  color: #C23628;
+  
+  visibility: visible;
+}
